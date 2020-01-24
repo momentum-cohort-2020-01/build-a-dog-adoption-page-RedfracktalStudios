@@ -4,4 +4,5 @@ h1{
 }
 .grid-container{
 display: flex;
+flex-wrap: wrap;
 }
