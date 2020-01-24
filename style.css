@@ -2,3 +2,6 @@ h1{
     color:white;
     background-color: blue;
 }
+.grid-container{
+display: flex;
+}
