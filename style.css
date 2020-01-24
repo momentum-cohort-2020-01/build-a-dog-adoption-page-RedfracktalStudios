@@ -2,7 +2,22 @@ h1{
     color:white;
     background-color: blue;
 }
+body{
+    margin: 40px;
+}
+img{
+    max-width: 100%;
+}
 .grid-container{
+    display: flex;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10;
+    /* justify-items: center; */
+}
+
+/* .grid-container{
 display: flex;
 flex-wrap: wrap;
-}
+} */
