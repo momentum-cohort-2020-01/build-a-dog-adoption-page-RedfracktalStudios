@@ -1,20 +1,33 @@
 
 img{
-    width: 250px;
-    height: 200px;    
+    width: 370px;
+    height: 370px;    
+}
+/* .title{
+    padding: 10px;
+} */
+.title{
+    background-color: blue;
+    color: white;
 }
 .container{
-    max-width: 1300px;
-    margin: 40px auto 0 auto;
-    padding: 10px 10px;
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
     }
 
 .dog{
-    flex: 1
-}
+    padding: 5px;
+    flex: 1 30%;
 
-@media (min-width:900px){
+}
+.aboutDog{
+    display: flex;
+    flex-wrap:  wrap;
+}
+.dogImage{
+    max-width: 100%;
+}
+@media (min-width:450px){
     .container{
         display:flex;
     }
