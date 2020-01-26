@@ -1,31 +1,37 @@
 
-img{
-    width: 370px;
-    height: 370px;    
+img {
+    width: 350px;
+    height: 200px;
+    margin: 5px;
 }
-/* .title{
-    padding: 10px;
-} */
+
 .title{
     background-color: blue;
     color: white;
 }
 .container{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
+    justify-content: left;
     }
 
-.dog{
-    padding: 5px;
-    flex: 1 30%;
+    .dog{
+        padding: 5px;
+        flex: 1 30%;
+}
 
-}
-.aboutDog{
-    display: flex;
-    flex-wrap:  wrap;
-}
 .dogImage{
     max-width: 100%;
+}
+li{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    list-style: none;
+    display: inline-block;
+}
+h3{
+    margin: none;
+    padding: none;
 }
 @media (min-width:450px){
     .container{
